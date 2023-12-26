@@ -87,11 +87,8 @@ public:
         std::cout << "Element deleted successfully." << std::endl;
     }
 };
-
+// Main Function 
 int main() {
-    // ... (previous code)
-
-    // Complex Number LinkedList
     LinkedList<std::complex<double>> complexList;
     std::cout << "Enter complex number elements for the linked list:\n";
     complexList.createList();
